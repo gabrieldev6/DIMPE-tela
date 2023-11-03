@@ -1,0 +1,37 @@
+{
+  "name": "dimpe",
+  "description": "Sistema de monitoramento inteligente utilizando YOLOv7 e tensorflow.js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugozanini/yolov7-tfjs.git"
+  },
+  "keywords": [
+    "object detection",
+    "yolov5",
+    "javascript",
+    "react",
+    "tensorflow.js"
+  ],
+  "author": "Wahyu Setianto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugozanini/yolov7-tfjs/issues"
+  },
+  "homepage": "https://github.com/hugozanini/yolov7-tfjs",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.15.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^2.8.0"
+  }
+}

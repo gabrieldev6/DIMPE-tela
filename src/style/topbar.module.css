@@ -1,0 +1,15 @@
+.div {
+    background-color: #01091C;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    align-items: center;
+    width: 90vw;
+    height: 12vh;
+    max-height: 120px;
+}
+.img {
+
+    width: 8vw;
+    max-width: 80px;
+}

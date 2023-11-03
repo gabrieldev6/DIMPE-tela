@@ -1,0 +1,16 @@
+.camera {
+    background-color: rgb(148, 104, 45);
+    width: 70vw;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playground {
+
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 88vh;
+}
