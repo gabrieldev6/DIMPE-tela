@@ -5,7 +5,7 @@ import Loader from "./loader";
 import { Webcam } from "../utils/webcam";
 import { renderBoxes } from "../utils/renderBox";
 import { non_max_suppression } from "../utils/nonMaxSuppression";
-import "../style/detection.module.css";
+import styles from "../style/detection.module.css";
 
 
 /**
@@ -89,7 +89,7 @@ const Detection = () => {
   console.warn = () => {};
 
   return (
-    <div className="App">
+    <div className={styles.App}>
       
       {loading.loading ? (
         <Loader>Carregando modelo... {(loading.progress * 100).toFixed(2)}%</Loader>
@@ -97,7 +97,7 @@ const Detection = () => {
         <p> </p>
       )}
 
-      <div className="content">
+      <div className={styles.content}>
         <video autoPlay playsInline muted ref={videoRef} id="frame"/>
         <canvas width={640} height={640} ref={canvasRef} />
 

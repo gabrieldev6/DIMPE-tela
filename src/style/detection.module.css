@@ -13,16 +13,16 @@
 }
 
 .content > video {
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   width: 100%;
   height: 100%;
-  max-width: 640px;
-  max-height: 640px;
+  max-width: 840px;
+  max-height: 840px;
 }
 
 .content > canvas {
-  background-color: yellow;
-  position: relative;
+  /* background-color: yellow; */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;

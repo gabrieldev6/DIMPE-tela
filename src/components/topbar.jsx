@@ -8,7 +8,7 @@ export default class Topbar extends Component {
 
     render() {
         return (
-            <div className={styles.div}>
+            <div className={styles.content}>
                 <img src={logo} alt="" className={styles.img}/>
 
                 <a href=""><div className={styles.menu}>
