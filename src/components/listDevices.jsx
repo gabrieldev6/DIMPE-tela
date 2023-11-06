@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import styles from "../style/listDevices.module.css"
 import * as icon from "react-icons/ai"
-
 export default class ListDevices extends Component {
+    
+
 
 
     render() {
@@ -18,7 +19,8 @@ export default class ListDevices extends Component {
                         </div>
                         <div className={styles.contentStatus}>
                             <div className={styles.status}></div>
-                            <icon.AiOutlineRight size={20}/>
+                            <button><icon.AiOutlineRight size={20} className={styles.slideMenu}/></button>
+                            
                         </div>
                         
                         {/* <button>testar dispositivo</button> */}
