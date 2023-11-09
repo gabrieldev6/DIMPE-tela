@@ -14,6 +14,7 @@ const App = () => {
       <div className={styles.playground}>
         <div className={styles.camera}>
           <Detection></Detection>
+          {/* <Selector></Selector> */}
         </div>
 
         <ListDevices/>

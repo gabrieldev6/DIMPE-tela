@@ -9,11 +9,13 @@ export default class Topbar extends Component {
     render() {
         return (
             <div className={styles.content}>
-                <img src={logo} alt="" className={styles.img}/>
+                <div className={styles.delimit}>
+                    <img src={logo} alt="" className={styles.img}/>
 
-                <a href=""><div className={styles.menu}>
-                    <icon.AiOutlineMenu color="white" size={30}/>
-                </div></a>
+                    <a href=""><div className={styles.menu}>
+                        <icon.AiOutlineMenu color="white" size={30}/>
+                    </div></a>
+                </div>
             </div>
         )
     }

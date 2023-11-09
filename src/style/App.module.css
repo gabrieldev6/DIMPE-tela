@@ -1,7 +1,7 @@
 .camera {
     background-color: rgb(138, 198, 203);
-    width: 70vw;
-    max-width: 1000px;
+    width: 50vw;
+    max-width: 700px;
     display: flex;
     align-items: center;
     justify-content: center;

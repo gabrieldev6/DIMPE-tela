@@ -47,7 +47,7 @@ ul {
 }
 
 .slideMenu {
-    animation: rotate 1.2s ;
+    animation: rotate 1.2s both;
 }
 
 @keyframes rotate {
