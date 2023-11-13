@@ -92,11 +92,14 @@ const Detection = () => {
     <div className={styles.App}>
       
       {loading.loading ? (
-        <Loader>Carregando modelo... {(loading.progress * 100).toFixed(2)}%</Loader>
+        <div>
+          <p>carregando o modelo</p>
+          <progress min={0} max={1} value={loading.progress}/>
+        </div>
       ) : (
         <p> </p>
       )}
-
+      
       <div className={styles.content}>
         <video autoPlay playsInline muted ref={videoRef} id="frame"/>
         <canvas width={640} height={640} ref={canvasRef} />
