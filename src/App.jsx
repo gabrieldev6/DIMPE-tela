@@ -8,11 +8,12 @@ import styles from "./style/App.module.css"
 
 const App = () => {
   return (
-    <div>
+    <div className={styles.app}>
       
       <Topbar/>
       <div className={styles.playground}>
         <div className={styles.camera}>
+          
           <Detection></Detection>
           {/* <Selector></Selector> */}
         </div>
