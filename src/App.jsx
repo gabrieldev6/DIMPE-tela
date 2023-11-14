@@ -13,12 +13,11 @@ const App = () => {
       <Topbar/>
       <div className={styles.playground}>
         <div className={styles.camera}>
-          
           <Detection></Detection>
-          {/* <Selector></Selector> */}
         </div>
-
-        <ListDevices/>
+        <div className={styles.lista}>
+            <ListDevices></ListDevices>
+        </div>
       </div>
       
       
